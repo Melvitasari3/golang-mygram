@@ -1,7 +1,7 @@
 package validation
 
 import (
-	"github.com/Melvitasari3/golang-mygram/model/modelphoto"
+	"golang-mygram/model/modelphoto"
 	validation "github.com/go-ozzo/ozzo-validation"
 )
 

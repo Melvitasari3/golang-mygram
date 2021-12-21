@@ -3,8 +3,9 @@ package repositoryuser
 import (
 	"errors"
 
-	"github.com/Melvitasari3/golang-mygram/constant"
-	"github.com/Melvitasari3/golang-mygram/entity"
+	"golang-mygram/constant"
+	"golang-mygram/entity"
+
 	"gorm.io/gorm"
 )
 

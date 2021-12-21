@@ -4,9 +4,10 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/Melvitasari3/golang-mygram/helper"
-	"github.com/Melvitasari3/golang-mygram/model/modelcomment"
-	"github.com/Melvitasari3/golang-mygram/service/servicecomment"
+	"golang-mygram/helper"
+	"golang-mygram/model/modelcomment"
+	"golang-mygram/service/servicecomment"
+
 	"github.com/gin-gonic/gin"
 )
 

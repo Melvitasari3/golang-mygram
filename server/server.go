@@ -4,12 +4,13 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Melvitasari3/golang-mygram/config/configdb"
+	"golang-mygram/config"
+
 	"github.com/gin-gonic/gin"
 )
 
 func Start() error {
-	db, err := configdb.New()
+	db, err := config.New()
 	if err != nil {
 		return err
 	}

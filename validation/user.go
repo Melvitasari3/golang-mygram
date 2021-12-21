@@ -3,8 +3,8 @@ package validation
 import (
 	"errors"
 
-	"github.com/Melvitasari3/golang-mygram/model/modeluser"
-	"github.com/Melvitasari3/golang-mygram/repository/repositoryuser"
+	"golang-mygram/model/modeluser"
+	"golang-mygram/repository/repositoryuser"
 	validation "github.com/go-ozzo/ozzo-validation"
 	"github.com/go-ozzo/ozzo-validation/is"
 )

@@ -1,10 +1,11 @@
 package servicephoto
 
 import (
-	"github.com/Melvitasari3/golang-mygram/entity"
-	"github.com/Melvitasari3/golang-mygram/model/modelphoto"
-	"github.com/Melvitasari3/golang-mygram/repository/repositoryphoto"
-	"github.com/Melvitasari3/golang-mygram/validation"
+	"golang-mygram/entity"
+	"golang-mygram/model/modelphoto"
+	"golang-mygram/repository/repositoryphoto"
+	"golang-mygram/validation"
+
 	"github.com/jinzhu/copier"
 )
 

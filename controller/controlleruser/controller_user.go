@@ -3,9 +3,10 @@ package controlleruser
 import (
 	"net/http"
 
-	"github.com/Melvitasari3/golang-mygram/helper"
-	"github.com/Melvitasari3/golang-mygram/model/modeluser"
-	"github.com/Melvitasari3/golang-mygram/service/serviceuser"
+	"golang-mygram/helper"
+	"golang-mygram/model/modeluser"
+	"golang-mygram/service/serviceuser"
+
 	"github.com/gin-gonic/gin"
 )
 

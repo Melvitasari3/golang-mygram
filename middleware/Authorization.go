@@ -5,7 +5,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/Melvitasari3/golang-mygram/helper"
+	"golang-mygram/helper"
+
 	"github.com/gin-gonic/gin"
 )
 

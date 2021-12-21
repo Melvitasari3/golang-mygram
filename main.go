@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/Melvitasari3/golang-mygram/server"
+	"golang-mygram/server"
 	_ "github.com/joho/godotenv/autoload"
 )
 

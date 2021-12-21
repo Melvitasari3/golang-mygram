@@ -3,11 +3,11 @@ package servicesocialmedia
 import (
 	"errors"
 
-	"github.com/Melvitasari3/golang-mygram/entity"
-	"github.com/Melvitasari3/golang-mygram/model/modelsocialmedia"
-	"github.com/Melvitasari3/golang-mygram/repository/repositoryphoto"
-	"github.com/Melvitasari3/golang-mygram/repository/repositorysocialmedia"
-	"github.com/Melvitasari3/golang-mygram/validation"
+	"golang-mygram/entity"
+	"golang-mygram/model/modelsocialmedia"
+	"golang-mygram/repository/repositoryphoto"
+	"golang-mygram/repository/repositorysocialmedia"
+	"golang-mygram/validation"
 	"github.com/jinzhu/copier"
 	"gorm.io/gorm"
 )

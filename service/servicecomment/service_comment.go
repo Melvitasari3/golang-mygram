@@ -3,10 +3,11 @@ package servicecomment
 import (
 	"log"
 
-	"github.com/Melvitasari3/golang-mygram/entity"
-	"github.com/Melvitasari3/golang-mygram/model/modelcomment"
-	"github.com/Melvitasari3/golang-mygram/repository/repositorycomment"
-	"github.com/Melvitasari3/golang-mygram/validation"
+	"golang-mygram/entity"
+	"golang-mygram/model/modelcomment"
+	"golang-mygram/repository/repositorycomment"
+	"golang-mygram/validation"
+
 	"github.com/jinzhu/copier"
 )
 

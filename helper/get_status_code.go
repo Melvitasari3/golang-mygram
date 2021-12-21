@@ -4,7 +4,8 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/Melvitasari3/golang-mygram/constant"
+	"golang-mygram/constant"
+
 	validation "github.com/go-ozzo/ozzo-validation"
 	"github.com/jackc/pgconn"
 	"github.com/jackc/pgerrcode"

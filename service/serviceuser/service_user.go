@@ -1,12 +1,12 @@
 package serviceuser
 
 import (
-	"github.com/Melvitasari3/golang-mygram/constant"
-	"github.com/Melvitasari3/golang-mygram/entity"
-	"github.com/Melvitasari3/golang-mygram/helper"
-	"github.com/Melvitasari3/golang-mygram/model/modeluser"
-	"github.com/Melvitasari3/golang-mygram/repository/repositoryuser"
-	"github.com/Melvitasari3/golang-mygram/validation"
+	"golang-mygram/constant"
+	"golang-mygram/entity"
+	"golang-mygram/helper"
+	"golang-mygram/model/modeluser"
+	"golang-mygram/repository/repositoryuser"
+	"golang-mygram/validation"
 	"github.com/jinzhu/copier"
 	"golang.org/x/crypto/bcrypt"
 )

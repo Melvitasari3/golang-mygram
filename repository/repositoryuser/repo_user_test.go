@@ -3,8 +3,9 @@ package repositoryuser
 import (
 	"testing"
 
-	"github.com/Melvitasari3/golang-mygram/entity"
-	"github.com/Melvitasari31/golang-mygram/config/configdb"
+	configdb "golang-mygram/config"
+	"golang-mygram/entity"
+
 	"github.com/jinzhu/copier"
 	"github.com/joho/godotenv"
 	"github.com/stretchr/testify/assert"

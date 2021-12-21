@@ -4,9 +4,10 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/Melvitasari3/golang-mygram/entity"
-	"github.com/Melvitasari3/golang-mygram/model/modeluser"
-	"github.com/Melvitasari3/golang-mygram/repository/repositoryuser"
+	"golang-mygram/entity"
+	"golang-mygram/model/modeluser"
+	"golang-mygram/repository/repositoryuser"
+
 	validation "github.com/go-ozzo/ozzo-validation"
 	"github.com/jinzhu/copier"
 	"github.com/joho/godotenv"

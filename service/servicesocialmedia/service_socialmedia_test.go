@@ -5,10 +5,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Melvitasari3/golang-mygram/entity"
-	"github.com/Melvitasari3/golang-mygram/model/modelsocialmedia"
-	"github.com/Melvitasari3/golang-mygram/repository/repositoryphoto"
-	"github.com/Melvitasari3/golang-mygram/repository/repositorysocialmedia"
+	"golang-mygram/entity"
+	"golang-mygram/model/modelsocialmedia"
+	"golang-mygram/repository/repositoryphoto"
+	"golang-mygram/repository/repositorysocialmedia"
+
 	validation "github.com/go-ozzo/ozzo-validation"
 	"github.com/jinzhu/copier"
 	"github.com/joho/godotenv"

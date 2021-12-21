@@ -1,7 +1,8 @@
 package repositorysocialmedia
 
 import (
-	"github.com/Melvitasari3/golang-mygram/entity"
+	"golang-mygram/entity"
+
 	"gorm.io/gorm"
 )
 

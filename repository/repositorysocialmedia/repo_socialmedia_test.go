@@ -3,9 +3,10 @@ package repositorysocialmedia
 import (
 	"testing"
 
-	"github.com/Melvitasari3/golang-mygram/config/configdb"
-	"github.com/Melvitasari3/golang-mygram/entity"
-	"github.com/Melvitasari3/golang-mygram/repository/repositoryuser"
+	configdb "golang-mygram/config"
+	"golang-mygram/entity"
+	"golang-mygram/repository/repositoryuser"
+
 	"github.com/jinzhu/copier"
 	"github.com/joho/godotenv"
 	"github.com/stretchr/testify/assert"

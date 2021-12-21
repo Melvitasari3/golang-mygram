@@ -3,7 +3,7 @@
 package repositorysocialmedia
 
 import (
-	entity "github.com/Melvitasari3/golang-mygram/entity"
+	entity "golang-mygram/entity"
 	mock "github.com/stretchr/testify/mock"
 )
 
