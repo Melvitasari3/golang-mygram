@@ -11,9 +11,9 @@ import (
 )
 
 func New() (*gorm.DB, error) {
-	dsn := "host=localhost user=postgres password=vita dbname=mygram port=5432 sslmode=disable TimeZone=Asia/Jakarta"
+	dsn := newPGConfig().String()
 
-	db, err := gorm.Open(postgres.Open(dsn), &gorm.Config{})
+	db, err := gorm.Open(postgres.Open(dsn))
 	if err != nil {
 		return nil, err
 	}
