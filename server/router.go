@@ -66,5 +66,5 @@ func NewRouter(r *gin.Engine, db *gorm.DB) {
 	routerSocialmedia.DELETE("/:socialmediaid", middleware.Authorization, ctrlSocialmedia.DeleteByID)
 
 	// routing docs
-	r.GET("/swagger/index.html", ginSwagger.WrapHandler(swaggerfiles.Handler))
+	r.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerfiles.Handler))
 }
