@@ -1,5 +1,4 @@
-Golang Mygram
-Application Demo
+Golang mygram
 
 https://hacktiv8-mygram.herokuapp.com/swagger/index.html
 
